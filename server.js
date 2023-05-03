@@ -81,6 +81,9 @@ app.post('/login',async(req,res)=>{
    res.json(1);
 
 })
+app.post('/contact',(req,res)=>{
+    res.json(1)
+})
 
 app.listen(PORT,()=>{
     console.log(`Server runing at localhost:${PORT}`)
